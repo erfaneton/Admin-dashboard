@@ -1,0 +1,48 @@
+.sidebar {
+    flex: 1;
+    height: cale(100vh -50px);
+    background-color: rgb(251, 251, 255);
+    position: sticky;
+    top: 3rem;
+}
+
+.sidebarWrapper {
+    padding: 1.3rem;
+    color: #555;
+}
+
+.sidebarMenu {
+    margin-bottom: 0.6rem;
+}
+
+.sidebarTitle {
+    font-size: 1rem;
+    color: rgb(187, 186, 186);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.sidebarList {
+    list-style: none;
+    padding: 0.2rem;
+
+}
+
+.sidebarListItem {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+    background-color: rgb(240, 240, 255);
+}
+
+.sidebarIcon {
+    margin-right: 0.2rem;
+    font-size: 1.1rem;
+}
