@@ -1,5 +1,5 @@
 import React from 'react'
-import './widgetLg.css'
+import './WidgetLg.css'
 import { TransActions } from '../../datas'
 export default function WidgetLg() {
 
