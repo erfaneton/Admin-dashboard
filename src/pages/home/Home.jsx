@@ -1,6 +1,6 @@
 import React from 'react'
 import Features from '../../compnents/features/Features'
-import './home.css'
+import './Home.css'
 import Chart from '../../compnents/chart/Chart'
 import { xAxisData } from '../../datas'
 import WidgetSm from '../../compnents/widgetSm/widgetSm'
