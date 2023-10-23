@@ -24,7 +24,7 @@ export default function Product() {
                 </div>
                 <div className="productTopRight">
                     <div className="productInfoTop">
-                        <img src="public/images/Dell.jpg" alt="" className="productInfoImg" />
+                        <img src="/images/Dell.jpg" alt="" className="productInfoImg" />
                         <span className="productName">Dell LapTop</span>
                     </div>
                     <div className="productInfoBottom">
@@ -77,7 +77,7 @@ export default function Product() {
                     </div>
                     <div className="productFormRight">
                         <div className="productUploader">
-                            <img src="public/images/Dell.jpg" alt="" className='productUploaderImg' />
+                            <img src="/images/Dell.jpg" alt="" className='productUploaderImg' />
                             <label >
                                 <PublishIcon />
                             </label>

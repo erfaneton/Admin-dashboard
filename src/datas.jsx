@@ -55,25 +55,25 @@ const newMembers = [
         id: 1,
         username: 'Negin Nobakht',
         title: 'Weblog',
-        img: 'public/images/Neg.jpg',
+        img: '/images/Neg.jpg',
     },
     {
         id: 2,
         username: 'Amin Shabkohi',
         title: 'Web Developer',
-        img: 'public/images/Amin.jpg',
+        img: '/images/Amin.jpg',
     },
     {
         id: 3,
         username: 'Ariya Roshangar',
         title: 'Seo Eng',
-        img: 'public/images/Ariya.jpg',
+        img: '/images/Ariya.jpg',
     },
     {
         id: 4,
         username: 'Arshia Shafiei',
         title: 'Hacker',
-        img: 'public/images/Arshia.jpg',
+        img: '/images/Arshia.jpg',
     }
 ]
 const TransActions = [
@@ -83,7 +83,7 @@ const TransActions = [
         date: '12 Dev 2023',
         amount: '1.300',
         status: 'Pending',
-        img: 'public/images/Ali.jpg'
+        img: '/images/Ali.jpg'
     },
     {
         id: 2,
@@ -91,7 +91,7 @@ const TransActions = [
         date: '12 Dev 2023',
         amount: '3.200',
         status: 'Declined',
-        img: 'public/images/Amin.jpg'
+        img: '/images/Amin.jpg'
     },
     {
         id: 3,
@@ -99,7 +99,7 @@ const TransActions = [
         date: '11 Dev 2023',
         amount: '200',
         status: 'Approved',
-        img: 'public/images/Alex.jpg'
+        img: '/images/Alex.jpg'
     },
     {
         id: 4,
@@ -107,7 +107,7 @@ const TransActions = [
         date: '10 Dev 2023',
         amount: '9.800',
         status: 'Approved',
-        img: 'public/images/Cj.jpg'
+        img: '/images/Cj.jpg'
     }
 ]
 
@@ -115,7 +115,7 @@ const userRows = [
     {
         id: 1,
         username: 'Negin Nobakht',
-        avatar: 'public/images/Neg.jpg',
+        avatar: '/images/Neg.jpg',
         status: 'active',
         TransActions: '$12.399',
         email: 'erfanshafiei.ea@gmail.com'
@@ -123,7 +123,7 @@ const userRows = [
     {
         id: 2,
         username: 'Arshia Shafiei',
-        avatar: 'public/images/Arshia.jpg',
+        avatar: '/images/Arshia.jpg',
         status: 'non-active',
         TransActions: '$399',
         email: 'erfanshafiei.ea@gmail.com'
@@ -131,7 +131,7 @@ const userRows = [
     {
         id: 3,
         username: 'Ali Nazari',
-        avatar: 'public/images/Ali.jpg',
+        avatar: '/images/Ali.jpg',
         status: 'active',
         TransActions: '$14.399',
         email: 'erfanshafiei.ea@gmail.com'
@@ -139,7 +139,7 @@ const userRows = [
     {
         id: 4,
         username: 'CJ Johanson',
-        avatar: 'public/images/Cj.jpg',
+        avatar: '/images/Cj.jpg',
         status: 'non-active',
         TransActions: '$7.399',
         email: 'erfanshafiei.ea@gmail.com'
@@ -147,7 +147,7 @@ const userRows = [
     {
         id: 5,
         username: 'Ariya Roshangar',
-        avatar: 'public/images/Ariya.jpg',
+        avatar: '/images/Ariya.jpg',
         status: 'non-active',
         TransActions: '$0',
         email: 'erfanshafiei.ea@gmail.com'
@@ -155,7 +155,7 @@ const userRows = [
     {
         id: 6,
         username: 'Amin Shabkohi',
-        avatar: 'public/images/Amin.jpg',
+        avatar: '/images/Amin.jpg',
         status: 'active',
         TransActions: '$4.830',
         email: 'erfanshafiei.ea@gmail.com'
@@ -163,7 +163,7 @@ const userRows = [
     {
         id: 7,
         username: 'Sina Molaie',
-        avatar: 'public/images/Sina.jpg',
+        avatar: '/images/Sina.jpg',
         status: 'non-active',
         TransActions: '$11.499',
         email: 'erfanshafiei.ea@gmail.com'
@@ -171,7 +171,7 @@ const userRows = [
     {
         id: 8,
         username: 'Mobina Shomali',
-        avatar: 'public/images/Mobina.jpg',
+        avatar: '/images/Mobina.jpg',
         status: 'non-active',
         TransActions: '$11.233',
         email: 'erfanshafiei.ea@gmail.com'
@@ -179,7 +179,7 @@ const userRows = [
     {
         id: 9,
         username: 'Alex Farmer',
-        avatar: 'public/images/Alex.jpg',
+        avatar: '/images/Alex.jpg',
         status: 'non-active',
         TransActions: '$20.300',
         email: 'erfanshafiei.ea@gmail.com'
@@ -187,7 +187,7 @@ const userRows = [
     {
         id: 10,
         username: 'Mohammad Shafiei',
-        avatar: 'public/images/Mohammad.jpg',
+        avatar: '/images/Mohammad.jpg',
         status: 'active',
         TransActions: '$935',
         email: 'erfanshafiei.ea@gmail.com'
@@ -197,37 +197,37 @@ const Products = [
     {
         id: 1,
         title: 'Asus',
-        avatar: 'public/images/Asus.jpg',
+        avatar: '/images/Asus.jpg',
         price: 1200
     },
     {
         id: 2,
         title: 'Apple',
-        avatar: 'public/images/Apple.jpg',
+        avatar: '/images/Apple.jpg',
         price: 999
     },
     {
         id: 3,
         title: 'Dell',
-        avatar: 'public/images/Dell.jpg',
+        avatar: '/images/Dell.jpg',
         price: 220
     },
     {
         id: 4,
         title: 'Hp',
-        avatar: 'public/images/Hp.jpg',
+        avatar: '/images/Hp.jpg',
         price: 730
     },
     {
         id: 5,
         title: 'Lenovo',
-        avatar: 'public/images/Lenovo.jpg',
+        avatar: '/images/Lenovo.jpg',
         price: 699
     },
     {
         id: 6,
         title: 'Vite',
-        avatar: 'public/images/Vite.jpg',
+        avatar: '/images/Vite.jpg',
         price: 399
     },
 ]
